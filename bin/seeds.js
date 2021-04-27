@@ -7,7 +7,7 @@ const Drone = require('../models/drone');
 
 
 mongoose
-  .connect('mongodb://localhost:27017/express-drones',
+  .connect('mongodb://localhost:27017/express-drones-dev',
    { useNewUrlParser: true, useUnifiedTopology: true })
   
 
